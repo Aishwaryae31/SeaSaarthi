@@ -1,0 +1,31 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card img {
+    height: 120px;
+    object-fit: cover;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button.btn-light {
+    background-color: white;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+}
+
+nav i {
+    font-size: 24px;
+    color: white;
+}
